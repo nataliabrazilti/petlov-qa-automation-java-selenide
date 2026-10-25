@@ -1,20 +1,47 @@
-![poster](.github/cover.png)
+![Capa do projeto Petlov QA Automation](.github/cover.png)
 
-## 🤘 Sobre
+# Petlov QA Automation
 
-Projeto Petlov para o treinamento de automação de testes com Java e JUnit 5
+Projeto de portfólio com testes automatizados de interface para o fluxo de cadastro de pontos de doação da plataforma [Petlov](https://petlov.vercel.app/signup).
 
-## 💻 Tecnologias
-- Selenium Webdriver 4.20.0
+Os testes foram desenvolvidos em Java e exploram duas abordagens de automação: Selenium WebDriver e Selenide, com validações usando JUnit 5.
+
+## Cenário coberto
+
+- Acessar a página de cadastro e validar o título.
+- Preencher os dados do ponto de doação e consultar o CEP.
+- Selecionar a categoria de animais.
+- Enviar o formulário e validar a mensagem de sucesso.
+
+## Tecnologias
+
+- Java 21
+- JUnit Jupiter 5.10.2
+- Selenium WebDriver 4.20.0
+- Selenide 7.19.0
+- Maven
+
+## Pré-requisitos
+
 - JDK 21
-- JUnit 5
+- Maven instalado e disponível no terminal
+- Google Chrome instalado
 
-## 🤖 Como executar
+## Como executar
 
-1. Clonar o repositório, e executar o comando:
+Clone o repositório e acesse a pasta do projeto:
+
+```bash
+git clone https://github.com/nataliabrazilti/petlov-qa-automation.git
+cd petlov-qa-automation
 ```
-mvn test
+
+Execute os testes:
+
+```bash
+mvn -Dtest=Cadastro,Selenium test
 ```
 
-<hr>
-Curso disponível em https://rocketskills.com.br
+## Créditos
+
+Projeto desenvolvido como prática de automação de testes durante o treinamento da [RocketSkills](https://rocketskills.com.br/).
