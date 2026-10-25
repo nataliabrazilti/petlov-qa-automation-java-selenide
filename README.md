@@ -1,5 +1,3 @@
-![Capa do projeto Petlov QA Automation](.github/cover.png)
-
 # Petlov QA Automation
 
 Projeto de portfólio com testes automatizados de interface para o fluxo de cadastro de pontos de doação da plataforma [Petlov](https://petlov.vercel.app/signup).
